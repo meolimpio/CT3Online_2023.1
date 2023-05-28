@@ -11,7 +11,12 @@ config_version=4
 [application]
 
 config/name="Projeto Ct 3"
+run/main_scene="res://player.tscn"
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/MagicaVoxel_Importer_with_Extensions/plugin.cfg" )
 
 [gui]
 

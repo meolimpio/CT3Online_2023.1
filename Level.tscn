@@ -1,10 +1,15 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Plataforma.tscn" type="PackedScene" id=1]
+[ext_resource path="res://player.tscn" type="PackedScene" id=2]
 
 [node name="Level" type="Spatial"]
 
 [node name="Plataforma" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1.3106, 0, 0, 0, 1, 0, 0, 0, 1.36981, 0, -0.146367, 0 )
 
 [node name="Plataforma2" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0.410332, 0.306926 )
+transform = Transform( 1.24104, 0, 0, 0, 1, 0, 0, 0, 1.29604, 0.249201, 0.642702, 3.05844 )
+
+[node name="player" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.0432768, 0 )
