@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Foliage_Bush_3Big.vox-dcfe22c547e74a0c1dd5843a681e7039.mesh"
+
+[deps]
+
+source_file="res://Decorations/Foliage/Foliage_Bush_3Big.vox"
+dest_files=[ "res://.import/Foliage_Bush_3Big.vox-dcfe22c547e74a0c1dd5843a681e7039.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false

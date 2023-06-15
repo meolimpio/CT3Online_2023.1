@@ -1,0 +1,62 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Fonts/Bouncy-PERSONAL_USE_ONLY.otf" type="DynamicFontData" id=2]
+[ext_resource path="res://Fonts/SF Slapstick Comic Shaded.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Scenes/StartButton.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 90
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 50
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
+font_data = ExtResource( 2 )
+
+[node name="MenuScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1025.0
+margin_bottom = 597.0
+color = Color( 0.0941176, 0.454902, 0.596078, 1 )
+
+[node name="Title" type="Label" parent="."]
+margin_left = 80.0
+margin_top = 92.0
+margin_right = 953.0
+margin_bottom = 238.0
+custom_colors/font_color = Color( 0.976471, 0.85098, 0.137255, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "PLATFORMER GAME"
+align = 1
+valign = 1
+
+[node name="StartButton" type="Button" parent="."]
+margin_left = 420.0
+margin_top = 329.0
+margin_right = 614.0
+margin_bottom = 398.0
+custom_colors/font_color = Color( 0.211765, 0.682353, 0.486275, 1 )
+custom_colors/font_color_hover = Color( 0.921569, 0.32549, 0.32549, 1 )
+custom_fonts/font = SubResource( 4 )
+text = "START"
+flat = true
+script = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 405.0
+margin_top = 556.0
+margin_right = 625.0
+margin_bottom = 594.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "CtrlPlay Recife"
+align = 1
+valign = 1
+
+[connection signal="pressed" from="StartButton" to="StartButton" method="_on_StartButton_pressed"]

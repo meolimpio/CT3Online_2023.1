@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Foliage_Path_Edge_02.vox-6befe07c2e08e7ced74b23452db3f65d.mesh"
+
+[deps]
+
+source_file="res://Decorations/Foliage/Foliage_Path_Edge_02.vox"
+dest_files=[ "res://.import/Foliage_Path_Edge_02.vox-6befe07c2e08e7ced74b23452db3f65d.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false

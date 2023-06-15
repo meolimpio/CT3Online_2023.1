@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Foliage_Tree_01.vox-e13610eba48fd548772c1eb3eb9fee5d.mesh"
+
+[deps]
+
+source_file="res://Decorations/Foliage/Foliage_Tree_01.vox"
+dest_files=[ "res://.import/Foliage_Tree_01.vox-e13610eba48fd548772c1eb3eb9fee5d.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false

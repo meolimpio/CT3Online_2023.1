@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Foliage_Hedge_Tall_Corner_02.vox-0207c0a6fc8fc83d0be9bef05d685eb1.mesh"
+
+[deps]
+
+source_file="res://Decorations/Foliage/Foliage_Hedge_Tall_Corner_02.vox"
+dest_files=[ "res://.import/Foliage_Hedge_Tall_Corner_02.vox-0207c0a6fc8fc83d0be9bef05d685eb1.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false

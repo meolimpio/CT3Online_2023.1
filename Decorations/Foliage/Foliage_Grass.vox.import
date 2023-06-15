@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Foliage_Grass.vox-d257be04fac6162f5ed4b83253a8b2b8.mesh"
+
+[deps]
+
+source_file="res://Decorations/Foliage/Foliage_Grass.vox"
+dest_files=[ "res://.import/Foliage_Grass.vox-d257be04fac6162f5ed4b83253a8b2b8.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false

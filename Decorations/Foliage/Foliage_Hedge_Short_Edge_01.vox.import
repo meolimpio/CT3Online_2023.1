@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Foliage_Hedge_Short_Edge_01.vox-3a7a0bbad27223be4d26e406bb356828.mesh"
+
+[deps]
+
+source_file="res://Decorations/Foliage/Foliage_Hedge_Short_Edge_01.vox"
+dest_files=[ "res://.import/Foliage_Hedge_Short_Edge_01.vox-3a7a0bbad27223be4d26e406bb356828.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false
