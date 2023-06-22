@@ -1,0 +1,16 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Coin.vox-6fba9721f10eb7f129a26acc3cce0570.mesh"
+
+[deps]
+
+source_file="res://Coin.vox"
+dest_files=[ "res://.import/Coin.vox-6fba9721f10eb7f129a26acc3cce0570.mesh" ]
+
+[params]
+
+Scale=0.1
+GreedyMeshGenerator=true
+SnapToGround=false

@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="Projeto Ct 3"
-run/main_scene="res://Scenes/Level.tscn"
+run/main_scene="res://Scenes/MenuScreen.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]
